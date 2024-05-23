@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="timer.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="timer.js"></script>
+</head>
+<body>
+    <div id="timer-app">
+        <div id="timer">25:00</div>
+        <input type="number" id="custom-time" placeholder="Enter minutes" min="1">
+        <button id="start-btn">Start</button>
+        <button id="reset-btn">Reset</button>
+    </div>
+    <audio id="alarm-sound" src="alarm.mp3" preload="auto"></audio>
+
+</body>
+</html>
